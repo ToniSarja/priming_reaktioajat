@@ -1,3 +1,10 @@
 # 20 venäjän kielen opiskelijaa, priming-koe
 x <- read.csv('pilotL2.csv')
 
+#Reaktioaikojen keskiarvot primetyypin mukaan
+with(x, tapply(rt,list(prime),mean))
+
+#ANOVA
+
+resp <- aov(rt ~ prime, data = x)
+summary(aov)
