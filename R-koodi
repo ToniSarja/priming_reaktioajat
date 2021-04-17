@@ -8,3 +8,10 @@ with(x, tapply(rt,list(prime),mean))
 
 resp <- aov(rt ~ prime, data = x)
 summary(resp)
+
+#tuloste
+#             Df Sum Sq Mean Sq F value   Pr(>F)    
+#prime         2  0.356 0.17791   7.643 0.000519 ***
+#Residuals   724 16.854 0.02328                     
+#---
+#Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
