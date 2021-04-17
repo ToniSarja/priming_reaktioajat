@@ -3,6 +3,12 @@ x <- read.csv('pilotL2.csv')
 
 #Reaktioaikojen keskiarvot primetyypin mukaan
 with(x, tapply(rt,list(prime),mean))
+#a_unrel = morfologisesti liittymättömät primesanat
+#der = kannasta johdetut primesanat
+#inf = taivutetut primesanat
+#
+#  a_unrel       der       inf 
+#0.7118040 0.6601065 0.6800124
 
 #ANOVA
 
