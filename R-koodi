@@ -1,0 +1,3 @@
+# 20 venäjän kielen opiskelijaa, priming-koe
+x <- read.csv('pilottikoe.csv')
+
