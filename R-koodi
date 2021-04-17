@@ -7,4 +7,4 @@ with(x, tapply(rt,list(prime),mean))
 #ANOVA
 
 resp <- aov(rt ~ prime, data = x)
-summary(aov)
+summary(resp)
